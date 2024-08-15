@@ -1,34 +1,149 @@
-{
-    "organizations": [
-        {
-            "organization_name": "SmartCampusMaua",
-            "applications": [
-                {
-                    "application_name": "GMS",
-                    "devices": [
-                        {
-                            "device_name": "WaterTankLevel_1",
-                            "device_id": "0001",
-                            "device_type": "WaterTankLevel"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "organization_name": "SaoRafael",
-            "applications": [
-                {
-                    "application_name": "Health",
-                    "devices": [
-                        {
-                            "device_name": "HealthPack_1",
-                            "device_id": "0001",
-                            "device_type": "HealthPack"
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+
+{ 
+  "fields": {
+      "sdl3_battery_voltage": 12.4,
+      "engine_rpm": 7000,
+      "gps_speed": 100,
+      "gear": 5
+   },
+  "name": "pd01_dcu",
+  "timestamp": 1713288706239
+}
+
+{ 
+  "fields": {
+     "engine_oil_pressure": 3.0,
+     "engine_temperature": 70,
+     "engine_intake_air_temperature": 84,
+     "engine_ecu_temperature": 4
+   },
+  "name": "pd02_dcu",
+  "timestamp": 1713288706239
+}
+
+{ 
+  "fields": {
+     "brake_pressure_front": 0,
+     "brake_pressure_rear": 80,
+     "manifold_air_pressure": 1,
+     "fuel_pressure": 3.5
+   },
+  "name": "pd03_dcu",
+  "timestamp": 1713288706239
+}
+
+{ 
+  "fields": {
+     "exhaust_temperature_cylinder_1": 720,
+     "exhaust_temperature_cylinder_1": 750,
+     "exhaust_temperature_cylinder_1": 700,
+     "sdl3_temperature": 27.5
+   },
+  "name": "pd04_dcu",
+  "timestamp": 1713288706239
+}
+
+{ 
+  "fields": {
+     "lambda_1": 0.8,
+     "acc_x": 2.5,
+     "axx_y": 2.5,
+     "acc_z": 9.8
+   },
+  "name": "pd05_dcu",
+  "timestamp": 1713288706239
+}
+
+{ 
+  "fields": {
+    "throttle_position": 0.8,
+    "fuel_used": 2.5,
+    "beacon": 2,
+    "gps_altitude": 770
+   },
+  "name": "pd06_dcu",
+  "timestamp": 1713288706239
+}
+
+{ 
+  "fields": {
+    "gps_latitude": -23.844756,
+    "gps_longitude": -46.23548
+   },
+  "name": "pd07_dcu",
+  "timestamp": 171328870623
+}
+
+
+    "sdl3_battery_voltage": 12.4,
+    "engine_rpm": 7000,
+    "gps_speed": 100,
+    "gear": 5
+    "engine_oil_pressure": 3.0,
+    "engine_temperature": 70,
+    "engine_intake_air_temperature": 84,
+    "engine_ecu_temperature": 4
+    "brake_pressure_front": 0,
+    "brake_pressure_rear": 80,
+    "manifold_air_pressure": 1,
+    "fuel_pressure": 3.5
+    "exhaust_temperature_cylinder_1": 720,
+    "exhaust_temperature_cylinder_1": 750,
+    "exhaust_temperature_cylinder_1": 700,
+    "sdl3_temperature": 27.5
+    "lambda_1": 0.8,
+    "acc_x": 2.5,
+    "axx_y": 2.5,
+    "acc_z": 9.8
+    "throttle_position": 0.8,
+    "fuel_used": 2.5,
+    "beacon": 2,
+    "gps_altitude": 770
+    "gps_latitude": -23.844756,
+    "gps_longitude": -46.23548
+
+
+
+
+
+
+
+    {
+      "_type": "location",
+      "BSSID": "b8:5e:71:dc:8f:7c",
+      "SSID": "Jesus_Home",
+      "_id": "a72a5dc1",
+      "acc": 74,
+      "alt": 839,
+      "batt": 93,
+      "bs": 1,
+      "conn": "w",
+      "lat": -23.5529867,
+      "lon": -46.5652235,
+      "m": 2,
+      "tid": "d2",
+      "tst": 1722302482,
+      "vac": 5,
+      "vel": 0,
+      "created_at": 1722302482,
+  }
+
+  {
+    "_type": "location",
+    "BSSID": "b8:5e:71:dc:8f:7c",
+    "SSID": "Jesus_Home",
+    "acc": 29,
+    "alt": 787,
+    "batt": 44,
+    "bs": 1,
+    "conn": "w",
+    "lat": -23.554286,
+    "lon": -46.564596,
+    "m": 2,
+    "tid": "OS",
+    "tst": 1722302471,
+    "vac": 3,
+    "vel": 2,
+    "p": 92.802,
+    "t": "u",
 }
